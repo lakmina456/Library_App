@@ -1,2 +1,3 @@
-# Library_App
-Library Management App Assignment - ICT 3214 - Mobile Application Development
+SQLite + Android - Complete Tutorial
+
+Note: Video tutorials will be available on my Youtube channel (Stevdza-San) soon.

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.jovanovic.stefan.LibraryManagement">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Library Management"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.jovanovic.stefan.LibraryManagement.UpdateActivity"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.BookActivity"/>
+
+        <activity android:name="com.jovanovic.stefan.LibraryManagement.Publisher_UpdateActivity"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.PublisherActivity"/>
+
+        <activity android:name="com.jovanovic.stefan.LibraryManagement.Branch_UpdateActivity"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.BranchActivity"/>
+
+        <activity android:name="com.jovanovic.stefan.LibraryManagement.Member_UpdateActivity"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.MemberActivity"/>
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.AddActivity"
+            android:label="Add Book"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.BookActivity" />
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.Publisher_AddActivity"
+            android:label="Add Publisher"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.PublisherActivity" />
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.Branch_AddActivity"
+            android:label="Add Branch"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.BranchActivity" />
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.Member_AddActivity"
+            android:label="Add Member"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.MemberActivity" />
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.BookActivity"
+            android:label="Manage Books"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.MainActivity" />
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.PublisherActivity"
+            android:label="Manage Publishers"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.MainActivity" />
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.BranchActivity"
+            android:label="Manage Branch"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.MainActivity" />
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.MemberActivity"
+            android:label="Manage Member"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.MainActivity" />
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.SearchActivity"
+            android:label="Search Member"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.MainActivity" />
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.SearchBook"
+            android:label="Search Member"
+            android:parentActivityName="com.jovanovic.stefan.LibraryManagement.MainActivity" />
+        <activity
+            android:name="com.jovanovic.stefan.LibraryManagement.MainActivity"
+            android:label="Library V1.00">
+
+
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
